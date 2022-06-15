@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	s := []int{20, 30, 40, 50, 60, 70, 80}
+	s := []int{2, 3, 4, 5, 6, 7, 8, 9}
 	fmt.Printf("Length of Slice: %d \n", len(s))
 	fmt.Printf("Capacity of Slice: %d \n", cap(s))
 
