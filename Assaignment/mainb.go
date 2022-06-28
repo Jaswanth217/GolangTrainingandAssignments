@@ -1,21 +1,21 @@
 package main
 
 import (
-	"Assignment_4/app"
+	"Assaignment/app"
 	"fmt"
 )
 
 func main() {
 	//Add Accounts
-	myAcc := app.Account{"Nandan", "Patibandla", 1, 10000}
+	myAcc := app.Account{"jaswanth", "Pelaprolu", 1, 10000}
 	lstAccount := app.AddAccount(myAcc)
 	fmt.Println(lstAccount)
 
-	myAcc1 := app.Account{"Gagan", "Pabby", 2, 20000}
+	myAcc1 := app.Account{"Sri", "Sainath", 2, 20000}
 	lstAccount = app.AddAccount(myAcc1)
 	fmt.Println(lstAccount)
 
-	myAcc2 := app.Account{"Kushal", "Kush", 3, 30000}
+	myAcc2 := app.Account{"Satish", "s", 3, 30000}
 	lstAccount = app.AddAccount(myAcc2)
 	fmt.Println(lstAccount)
 
