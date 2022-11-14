@@ -1,4 +1,4 @@
-package app
+package App
 
 type Account struct {
 	FirstName, LastName string
