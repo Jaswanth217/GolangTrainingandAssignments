@@ -1,10 +1,15 @@
+//go run filename.go  // to run the code
+
 // To clone from system to github repository
 // git add Filename // to add a file
 // git add --all  // to add all files 
 // git rm <filename> // to remove file 
 // git status
 // git commit -m "message"
-// git push
+// git push  // to upload local repo content to remote repo.
+
+
+// git pull   //to fetch and download content from remote to local 
 
 Variable
 Constants
